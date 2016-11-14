@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/train"
+    android:scaleType = "centerCrop"
+    android:paddingTop="120sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select The Train"
+        android:textColor="#f5dada"
+        android:gravity="center"
+        android:textSize="33sp"/>
+
+    <AutoCompleteTextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#fffeb3"
+        android:shadowColor="#080808"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:id="@+id/auto1"
+        />
+
+    <Button
+        android:text="NEXT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffefef"
+        android:shadowColor="#080808"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:id="@+id/button3"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning: Govt. standard cost for sms in train."
+        android:textColor="#ffffff"
+        android:shadowColor="#fa0404"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:textSize="33sp"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/train"
+    android:scaleType = "centerCrop"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".9"
+        android:id="@+id/text3"
+        android:text="Please wait for Sms..."
+        android:textColor="#00f5f1"
+        android:textSize="33sp"
+        android:shadowColor="#080808"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:text="View in MAP"
+        android:textColor="#ffefef"
+        android:shadowColor="#080808"
+        android:shadowDx="-2"
+        android:shadowDy="-2"
+        android:shadowRadius="1"
+        android:id="@+id/button2"
+        />
+
+
+</LinearLayout>
